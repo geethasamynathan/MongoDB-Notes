@@ -4,6 +4,47 @@
 ## ✅ Collection: `employees`
 
 ### 📄 Sample Documents:
+use yourDatabaseName; // Replace with your actual database name
+
+db.employees.insertMany([
+  {
+    "_id": 1,
+    "name": "Alice",
+    "age": 30,
+    "department": "HR",
+    "salary": 5000,
+    "skills": ["communication", "management"],
+    "active": true
+  },
+  {
+    "_id": 2,
+    "name": "Bob",
+    "age": 25,
+    "department": "IT",
+    "salary": 7000,
+    "skills": ["javascript", "nodejs", "mongodb"],
+    "active": false
+  },
+  {
+    "_id": 3,
+    "name": "Charlie",
+    "age": 35,
+    "department": "Finance",
+    "salary": 6500,
+    "skills": ["excel", "accounting"],
+    "active": true
+  },
+  {
+    "_id": 4,
+    "name": "Diana",
+    "age": 28,
+    "department": "IT",
+    "salary": 7200,
+    "skills": ["python", "mongodb"],
+    "active": true
+  }
+]);
+
 ```json
 {
   "_id": 1,

@@ -5,7 +5,7 @@
 
 ### 📄 Sample Documents:
 use yourDatabaseName; // Replace with your actual database name
-
+```json
 db.employees.insertMany([
   {
     "_id": 1,
@@ -44,6 +44,7 @@ db.employees.insertMany([
     "active": true
   }
 ]);
+```
 
 ```json
 {
